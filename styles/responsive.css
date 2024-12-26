@@ -1,0 +1,298 @@
+@media screen and (max-width:1400px) {
+    .main {
+        right: 56rem;
+        width: calc(100% - 55.1rem);
+    }
+
+    .bmi-calculator {
+        width: 45rem;
+    }
+
+    .height-card,
+    .weight-card {
+        width: 14.7rem;
+    }
+
+    .body-mass-card {}
+
+    .body-mass-card__value {
+        font-size: 2.2rem;
+    }
+
+    .body-mass-card__status {
+        padding: .8rem .4rem;
+    }
+
+    .body-mass__rotate {
+        padding: .9rem;
+    }
+
+    .card-body-mass {
+        width: 12.5rem;
+        height: 8.6rem;
+        padding: 2.2rem 2.2rem;
+    }
+
+    .card-body-mass__title {
+        font-size: 1.6rem;
+    }
+
+    .card-body-mass__value {
+        font-size: 2.2rem;
+    }
+
+    .card-body-mass__status {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .body-measurements__shape {
+        width: 15.5rem;
+        height: 50.5rem;
+    }
+
+    .body-measurements__shape::after {
+        width: 5rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .sidebar {
+        width: 8rem;
+    }
+
+    .logo-wrapper {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .nav__item {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .faq__icon,
+    .nav__icon {
+        height: 2.8rem;
+    }
+
+    .faq {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .main {
+        right: 38rem;
+        left: 8rem;
+        width: calc(100% - 46rem);
+    }
+
+    .container {
+        padding: 5.7rem 2rem;
+    }
+
+    .health-overview-header__title {
+        font-size: 2rem;
+    }
+
+    .health-info__card-wrapper {
+        gap: 1rem;
+    }
+
+    .health-info-card {
+        padding: 1.6rem 1.6rem 1rem 1.6rem;
+        height: 20.2rem;
+    }
+
+    .health-info-card__icon-wrapper {
+        width: 3.7rem;
+        height: 3.8rem;
+    }
+
+    .health-info-card__icon {
+        width: 1.5rem;
+        height: 3rem;
+    }
+
+    .health-info-card__unit {
+        width: 7.9rem;
+    }
+
+    .health-info-card__result-number {
+        font-size: 2rem;
+    }
+
+    .health-info-card__result-symbol {
+        font-size: 1.2rem;
+    }
+
+    .health-info-card__status {
+        font-size: 1rem;
+        padding: .6rem .3rem;
+    }
+
+    .health-info-card__vector-icon {
+        height: 6.2rem;
+    }
+
+    .upcoming-appointment-card__title {
+        font-size: 1.6rem;
+    }
+
+    .upcoming-appointment-card__date {
+        font-size: 1rem;
+        padding: .6rem;
+    }
+
+    .upcoming-appointment-card__consultation {
+        font-size: 1.2rem;
+    }
+
+    .bmi-calculator {
+        width: 38rem;
+        padding: 5.7rem 2rem;
+    }
+
+    .bmi-header__title {
+        font-size: 2rem;
+    }
+
+    .bmi-header__week-selector {
+        padding: 1.2rem 1.8rem;
+    }
+
+    .bmi-section {
+        gap: 1rem;
+    }
+
+    .height-card,
+    .weight-card {
+        width: 12.7rem;
+        padding: 1.8rem 0;
+    }
+
+    .height-card__result,
+    .height-card__title,
+    .weight-card__title,
+    .weight-card__result {
+        font-size: 1.4rem;
+    }
+
+    .body-mass-card {
+        width: 19.3rem;
+        padding: 1rem;
+    }
+
+    .body-mass-card__title {
+        font-size: 1.4rem;
+    }
+
+    .body-mass-card__value {
+        font-size: 2rem;
+    }
+
+    .body-mass-card__status {
+        padding: .4rem .2rem;
+        font-size: 1.3rem;
+    }
+
+    .body-mass__title {
+        font-size: 2rem;
+    }
+
+    .body-mass__update {
+        font-size: 1.4rem;
+    }
+
+    .body-mass__rotate {
+        padding: .5rem;
+    }
+
+    .body-measurements__shape {
+        width: 11.5rem;
+        height: 42.5rem;
+    }
+
+    .body-measurements__shape::after {
+        width: 4rem;
+        height: 3rem;
+    }
+
+    .card-body-mass {
+        width: 10.5rem;
+        height: 6.6rem;
+        padding: 2rem;
+    }
+
+    .card-body-mass__title {
+        font-size: 1.4rem;
+        text-wrap: nowrap;
+    }
+
+    .card-body-mass__value {
+        font-size: 1.2rem;
+    }
+
+    .card-body-mass__status {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .bmi-calculator {
+        right: -38rem;
+    }
+
+    .main {
+        right: 0rem;
+        left: 8rem;
+        width: calc(100% - 8rem);
+    }
+
+    .bmi-calculator__controller {
+        display: flex;
+    }
+
+    .bmi-toggle-btn {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:576px) {
+    .health-info__card-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .health-info-card {
+        width: 100%;
+    }
+
+    .upcoming-appointment-card {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .health-overview-header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .activity-growth-card__header {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .upcoming-appointment-card {
+        justify-content: center;
+        gap: 1rem;
+    }
+}
